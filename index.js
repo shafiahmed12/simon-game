@@ -19,7 +19,7 @@ $(".btn").click(function () {
   var userChoosenColour = $(this).attr("id");
   userClickedPattern.push(userChoosenColour);
   playSound(userChoosenColour);
-  animate(userChosenColour);
+  animate(userChoosenColour);
   checkAnswer(userClickedPattern.length-1);
 
 });
